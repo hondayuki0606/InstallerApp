@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFFA50272549BC2C002DE8F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50262549BC2C002DE8F2 /* AppDelegate.m */; };
+		AFFA502A2549BC2C002DE8F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50292549BC2C002DE8F2 /* ViewController.m */; };
+		AFFA502C2549BC2E002DE8F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFA502B2549BC2E002DE8F2 /* Assets.xcassets */; };
+		AFFA502F2549BC2E002DE8F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFA502D2549BC2E002DE8F2 /* Main.storyboard */; };
+		AFFA50322549BC2E002DE8F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50312549BC2E002DE8F2 /* main.m */; };
+		AFFA503D2549BC2E002DE8F2 /* satatusBarAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA503C2549BC2E002DE8F2 /* satatusBarAppTests.m */; };
+		AFFA50482549BC2E002DE8F2 /* satatusBarAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50472549BC2E002DE8F2 /* satatusBarAppUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFFA50392549BC2E002DE8F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFFA501A2549BC2C002DE8F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFFA50212549BC2C002DE8F2;
+			remoteInfo = satatusBarApp;
+		};
+		AFFA50442549BC2E002DE8F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFFA501A2549BC2C002DE8F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFFA50212549BC2C002DE8F2;
+			remoteInfo = satatusBarApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AFFA50222549BC2C002DE8F2 /* satatusBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = satatusBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFA50252549BC2C002DE8F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFFA50262549BC2C002DE8F2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFFA50282549BC2C002DE8F2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFFA50292549BC2C002DE8F2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFFA502B2549BC2E002DE8F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFFA502E2549BC2E002DE8F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFFA50302549BC2E002DE8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFA50312549BC2E002DE8F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AFFA50332549BC2E002DE8F2 /* satatusBarApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = satatusBarApp.entitlements; sourceTree = "<group>"; };
+		AFFA50382549BC2E002DE8F2 /* satatusBarAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = satatusBarAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFA503C2549BC2E002DE8F2 /* satatusBarAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = satatusBarAppTests.m; sourceTree = "<group>"; };
+		AFFA503E2549BC2E002DE8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFA50432549BC2E002DE8F2 /* satatusBarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = satatusBarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFFA50472549BC2E002DE8F2 /* satatusBarAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = satatusBarAppUITests.m; sourceTree = "<group>"; };
+		AFFA50492549BC2E002DE8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFFA501F2549BC2C002DE8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA50352549BC2E002DE8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA50402549BC2E002DE8F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFFA50192549BC2C002DE8F2 = {
+			isa = PBXGroup;
+			children = (
+				AFFA50242549BC2C002DE8F2 /* satatusBarApp */,
+				AFFA503B2549BC2E002DE8F2 /* satatusBarAppTests */,
+				AFFA50462549BC2E002DE8F2 /* satatusBarAppUITests */,
+				AFFA50232549BC2C002DE8F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFFA50232549BC2C002DE8F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA50222549BC2C002DE8F2 /* satatusBarApp.app */,
+				AFFA50382549BC2E002DE8F2 /* satatusBarAppTests.xctest */,
+				AFFA50432549BC2E002DE8F2 /* satatusBarAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFFA50242549BC2C002DE8F2 /* satatusBarApp */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA50252549BC2C002DE8F2 /* AppDelegate.h */,
+				AFFA50262549BC2C002DE8F2 /* AppDelegate.m */,
+				AFFA50282549BC2C002DE8F2 /* ViewController.h */,
+				AFFA50292549BC2C002DE8F2 /* ViewController.m */,
+				AFFA502B2549BC2E002DE8F2 /* Assets.xcassets */,
+				AFFA502D2549BC2E002DE8F2 /* Main.storyboard */,
+				AFFA50302549BC2E002DE8F2 /* Info.plist */,
+				AFFA50312549BC2E002DE8F2 /* main.m */,
+				AFFA50332549BC2E002DE8F2 /* satatusBarApp.entitlements */,
+			);
+			path = satatusBarApp;
+			sourceTree = "<group>";
+		};
+		AFFA503B2549BC2E002DE8F2 /* satatusBarAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA503C2549BC2E002DE8F2 /* satatusBarAppTests.m */,
+				AFFA503E2549BC2E002DE8F2 /* Info.plist */,
+			);
+			path = satatusBarAppTests;
+			sourceTree = "<group>";
+		};
+		AFFA50462549BC2E002DE8F2 /* satatusBarAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFFA50472549BC2E002DE8F2 /* satatusBarAppUITests.m */,
+				AFFA50492549BC2E002DE8F2 /* Info.plist */,
+			);
+			path = satatusBarAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFFA50212549BC2C002DE8F2 /* satatusBarApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFA504C2549BC2E002DE8F2 /* Build configuration list for PBXNativeTarget "satatusBarApp" */;
+			buildPhases = (
+				AFFA501E2549BC2C002DE8F2 /* Sources */,
+				AFFA501F2549BC2C002DE8F2 /* Frameworks */,
+				AFFA50202549BC2C002DE8F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = satatusBarApp;
+			productName = satatusBarApp;
+			productReference = AFFA50222549BC2C002DE8F2 /* satatusBarApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFFA50372549BC2E002DE8F2 /* satatusBarAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFA504F2549BC2E002DE8F2 /* Build configuration list for PBXNativeTarget "satatusBarAppTests" */;
+			buildPhases = (
+				AFFA50342549BC2E002DE8F2 /* Sources */,
+				AFFA50352549BC2E002DE8F2 /* Frameworks */,
+				AFFA50362549BC2E002DE8F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFFA503A2549BC2E002DE8F2 /* PBXTargetDependency */,
+			);
+			name = satatusBarAppTests;
+			productName = satatusBarAppTests;
+			productReference = AFFA50382549BC2E002DE8F2 /* satatusBarAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFFA50422549BC2E002DE8F2 /* satatusBarAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFFA50522549BC2E002DE8F2 /* Build configuration list for PBXNativeTarget "satatusBarAppUITests" */;
+			buildPhases = (
+				AFFA503F2549BC2E002DE8F2 /* Sources */,
+				AFFA50402549BC2E002DE8F2 /* Frameworks */,
+				AFFA50412549BC2E002DE8F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFFA50452549BC2E002DE8F2 /* PBXTargetDependency */,
+			);
+			name = satatusBarAppUITests;
+			productName = satatusBarAppUITests;
+			productReference = AFFA50432549BC2E002DE8F2 /* satatusBarAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFFA501A2549BC2C002DE8F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "本田尚行";
+				TargetAttributes = {
+					AFFA50212549BC2C002DE8F2 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					AFFA50372549BC2E002DE8F2 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = AFFA50212549BC2C002DE8F2;
+					};
+					AFFA50422549BC2E002DE8F2 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = AFFA50212549BC2C002DE8F2;
+					};
+				};
+			};
+			buildConfigurationList = AFFA501D2549BC2C002DE8F2 /* Build configuration list for PBXProject "satatusBarApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFFA50192549BC2C002DE8F2;
+			productRefGroup = AFFA50232549BC2C002DE8F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFFA50212549BC2C002DE8F2 /* satatusBarApp */,
+				AFFA50372549BC2E002DE8F2 /* satatusBarAppTests */,
+				AFFA50422549BC2E002DE8F2 /* satatusBarAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFFA50202549BC2C002DE8F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFA502C2549BC2E002DE8F2 /* Assets.xcassets in Resources */,
+				AFFA502F2549BC2E002DE8F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA50362549BC2E002DE8F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA50412549BC2E002DE8F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFFA501E2549BC2C002DE8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFA502A2549BC2C002DE8F2 /* ViewController.m in Sources */,
+				AFFA50322549BC2E002DE8F2 /* main.m in Sources */,
+				AFFA50272549BC2C002DE8F2 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA50342549BC2E002DE8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFA503D2549BC2E002DE8F2 /* satatusBarAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA503F2549BC2E002DE8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFFA50482549BC2E002DE8F2 /* satatusBarAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFFA503A2549BC2E002DE8F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFFA50212549BC2C002DE8F2 /* satatusBarApp */;
+			targetProxy = AFFA50392549BC2E002DE8F2 /* PBXContainerItemProxy */;
+		};
+		AFFA50452549BC2E002DE8F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFFA50212549BC2C002DE8F2 /* satatusBarApp */;
+			targetProxy = AFFA50442549BC2E002DE8F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFFA502D2549BC2E002DE8F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFFA502E2549BC2E002DE8F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFFA504A2549BC2E002DE8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AFFA504B2549BC2E002DE8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AFFA504D2549BC2E002DE8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = satatusBarApp/satatusBarApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 82C875UJ9D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = satatusBarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = satatusBarApp.satatusBarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AFFA504E2549BC2E002DE8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = satatusBarApp/satatusBarApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 82C875UJ9D;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = satatusBarApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = satatusBarApp.satatusBarApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AFFA50502549BC2E002DE8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 82C875UJ9D;
+				INFOPLIST_FILE = satatusBarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = satatusBarApp.satatusBarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/satatusBarApp.app/Contents/MacOS/satatusBarApp";
+			};
+			name = Debug;
+		};
+		AFFA50512549BC2E002DE8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 82C875UJ9D;
+				INFOPLIST_FILE = satatusBarAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = satatusBarApp.satatusBarAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/satatusBarApp.app/Contents/MacOS/satatusBarApp";
+			};
+			name = Release;
+		};
+		AFFA50532549BC2E002DE8F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 82C875UJ9D;
+				INFOPLIST_FILE = satatusBarAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = satatusBarApp.satatusBarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = satatusBarApp;
+			};
+			name = Debug;
+		};
+		AFFA50542549BC2E002DE8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 82C875UJ9D;
+				INFOPLIST_FILE = satatusBarAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = satatusBarApp.satatusBarAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = satatusBarApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFFA501D2549BC2C002DE8F2 /* Build configuration list for PBXProject "satatusBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFA504A2549BC2E002DE8F2 /* Debug */,
+				AFFA504B2549BC2E002DE8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFA504C2549BC2E002DE8F2 /* Build configuration list for PBXNativeTarget "satatusBarApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFA504D2549BC2E002DE8F2 /* Debug */,
+				AFFA504E2549BC2E002DE8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFA504F2549BC2E002DE8F2 /* Build configuration list for PBXNativeTarget "satatusBarAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFA50502549BC2E002DE8F2 /* Debug */,
+				AFFA50512549BC2E002DE8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFFA50522549BC2E002DE8F2 /* Build configuration list for PBXNativeTarget "satatusBarAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFFA50532549BC2E002DE8F2 /* Debug */,
+				AFFA50542549BC2E002DE8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFFA501A2549BC2C002DE8F2 /* Project object */;
+}
