@@ -14,6 +14,8 @@
 		AFFA50322549BC2E002DE8F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50312549BC2E002DE8F2 /* main.m */; };
 		AFFA503D2549BC2E002DE8F2 /* satatusBarAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA503C2549BC2E002DE8F2 /* satatusBarAppTests.m */; };
 		AFFA50482549BC2E002DE8F2 /* satatusBarAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50472549BC2E002DE8F2 /* satatusBarAppUITests.m */; };
+		AFFA50582549BCEE002DE8F2 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50562549BCEE002DE8F2 /* NextViewController.m */; };
+		AFFA50592549BCEE002DE8F2 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFA50572549BCEE002DE8F2 /* NextViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,9 @@
 		AFFA50432549BC2E002DE8F2 /* satatusBarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = satatusBarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFA50472549BC2E002DE8F2 /* satatusBarAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = satatusBarAppUITests.m; sourceTree = "<group>"; };
 		AFFA50492549BC2E002DE8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFA50552549BCEE002DE8F2 /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		AFFA50562549BCEE002DE8F2 /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		AFFA50572549BCEE002DE8F2 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +114,9 @@
 				AFFA50302549BC2E002DE8F2 /* Info.plist */,
 				AFFA50312549BC2E002DE8F2 /* main.m */,
 				AFFA50332549BC2E002DE8F2 /* satatusBarApp.entitlements */,
+				AFFA50552549BCEE002DE8F2 /* NextViewController.h */,
+				AFFA50562549BCEE002DE8F2 /* NextViewController.m */,
+				AFFA50572549BCEE002DE8F2 /* NextViewController.xib */,
 			);
 			path = satatusBarApp;
 			sourceTree = "<group>";
@@ -234,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFFA50592549BCEE002DE8F2 /* NextViewController.xib in Resources */,
 				AFFA502C2549BC2E002DE8F2 /* Assets.xcassets in Resources */,
 				AFFA502F2549BC2E002DE8F2 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFFA502A2549BC2C002DE8F2 /* ViewController.m in Sources */,
+				AFFA50582549BCEE002DE8F2 /* NextViewController.m in Sources */,
 				AFFA50322549BC2E002DE8F2 /* main.m in Sources */,
 				AFFA50272549BC2C002DE8F2 /* AppDelegate.m in Sources */,
 			);
