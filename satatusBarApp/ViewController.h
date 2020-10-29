@@ -9,7 +9,14 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ViewController : NSViewController
+@property (weak) IBOutlet NSButton *NextButton;
+@property (weak) IBOutlet NSButton *BackButton;
+@property (weak) IBOutlet NSButton *InstallButton;
 
+@property (weak) IBOutlet NSView *InstallerStartView;
+@property (weak) IBOutlet NSView *InstalledView;
+@property (weak) IBOutlet NSView *InstallCompleteView;
+@property (weak) IBOutlet NSProgressIndicator *progressBar;
 
 @end
 
