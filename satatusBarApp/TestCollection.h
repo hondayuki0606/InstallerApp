@@ -11,7 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface TestCollection : NSCollectionView<NSCollectionViewDataSource,NSCollectionViewDelegate>{
-    NSMutableArray *ar;
+    NSMutableArray *ar_Device;
+    NSMutableArray *ar_Icon;
+    NSMutableArray *ar_Button;
 }
 
 @end

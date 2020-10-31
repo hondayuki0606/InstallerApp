@@ -7,6 +7,7 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="TestItem">
             <connections>
+                <outlet property="IB_Show_image" destination="gEt-Tr-mNk" id="mci-xT-Qsw"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
             </connections>
         </customObject>
@@ -24,15 +25,31 @@
                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                     </textFieldCell>
                 </textField>
+                <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="xw4-7c-xpO">
+                    <rect key="frame" x="113" y="7" width="81" height="32"/>
+                    <buttonCell key="cell" type="push" title="Button" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="HgA-u4-qln">
+                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                        <font key="font" metaFont="system"/>
+                    </buttonCell>
+                </button>
+                <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="gEt-Tr-mNk">
+                    <rect key="frame" x="153" y="35" width="0.0" height="0.0"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" id="Nz3-eb-3eE"/>
+                </imageView>
             </subviews>
             <constraints>
                 <constraint firstItem="uX9-M2-Rxi" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="5ce-qF-NsF"/>
+                <constraint firstItem="xw4-7c-xpO" firstAttribute="top" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="LYH-O7-04H"/>
                 <constraint firstItem="uX9-M2-Rxi" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="Nu7-wL-urL"/>
+                <constraint firstItem="xw4-7c-xpO" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="Wuo-aj-fuY"/>
+                <constraint firstItem="gEt-Tr-mNk" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="dPR-Rt-qey"/>
+                <constraint firstItem="gEt-Tr-mNk" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="eMc-Uj-pEM"/>
             </constraints>
             <point key="canvasLocation" x="52" y="52.5"/>
         </customView>
         <customObject id="UM0-9R-FMd" customClass="TestItem">
             <connections>
+                <outlet property="IB_Push_button" destination="xw4-7c-xpO" id="bq2-IV-Lv8"/>
                 <outlet property="IB_Show_text" destination="uX9-M2-Rxi" id="6Yw-Qn-EGK"/>
                 <outlet property="view" destination="Hz6-mo-xeY" id="8iC-eK-Lx6"/>
             </connections>

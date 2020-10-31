@@ -11,7 +11,8 @@
 @implementation TestCollection
 -(NSCollectionViewItem *)collectionView:(NSCollectionView *)collectionView itemForRepresentedObjectAtIndexPath:(NSIndexPath *)indexPaths{
     TestItem *item=[collectionView makeItemWithIdentifier:@"TestItem" forIndexPath:indexPaths];
-    item->IB_Show_text.stringValue=[ar objectAtIndex:[indexPaths item]];
+    item->IB_Show_image.image=[NSImage imageNamed:@"StatusBarButtonImage"];
+    item->IB_Push_button.title=@"解約する";
     return item;
 }
 - (void)collectionView:(NSCollectionView *)collectionView willDisplayItem:(NSCollectionViewItem *)item forRepresentedObjectAtIndexPath:(NSIndexPath *)indexPath{
@@ -21,19 +22,28 @@
 -(void)collectionView:(NSCollectionView *)collectionView didEndDisplayingItem:(NSCollectionViewItem *)item forRepresentedObjectAtIndexPath:(NSIndexPath *)indexPath{
     
 }
-
+// 列数を設定する
 - (NSInteger)collectionView:(NSCollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return [ar count];
-}
-- (NSInteger)numberOfSectionsInCollectionView:(NSCollectionView *)collectionView{
     return 1;
+}
+// 行列を設定する
+- (NSInteger)numberOfSectionsInCollectionView:(NSCollectionView *)collectionView{
+    return [ar_Device count];
 }
 
 -(void)viewDidMoveToWindow{
     self.delegate=self;
     self.dataSource=self;
-    ar = [[NSMutableArray alloc]init];
-    [ar addObject:@"Hello"];
+    ar_Device = [[NSMutableArray alloc]init];
+    [ar_Device addObject:@"iPhone5"];
+    [ar_Device addObject:@"MacOS"];
+//    ar_Icon = [[NSMutableArray alloc]init];
+//    [ar_Icon addObject:];
+//    [ar_Icon addObject:[NSImage imageNamed:@"StatusBarButtonImage"]];
+    ar_Button = [[NSMutableArray alloc]init];
+    [ar_Button addObject:@"解約する"];
+    [ar_Button addObject:@"解約する"];
+
 }
 
 - (void)drawRect:(NSRect)dirtyRect {
