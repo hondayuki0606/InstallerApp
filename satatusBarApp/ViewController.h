@@ -18,5 +18,8 @@
 @property (weak) IBOutlet NSView *InstallCompleteView;
 @property (weak) IBOutlet NSProgressIndicator *progressBar;
 
+
+
+
 @end
 

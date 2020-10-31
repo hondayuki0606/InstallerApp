@@ -18,8 +18,14 @@
     [self.InstalledView setHidden:NO];
     [self.InstallCompleteView setHidden:YES];
 //    [self.progressBar setDoubleValue:0.1];
+    CGSize progressViewSize = self.progressBar.frame.size;
+    CGSize viewSize = self.view.frame.size;
+    self.progressBar.frame = CGRectMake((viewSize.width - progressViewSize.width) / 2, (viewSize.height - progressViewSize.height) / 2, progressViewSize.width, progressViewSize.height);
+    
     self.progressBar.indeterminate = NO;
-    self.progressBar.doubleValue = 34.0;
+    self.progressBar.doubleValue = 0.0;
+    [self.view addSubview: self.progressBar];
+    //    [self.progressBar removeFromSuperview];
 }
 - (IBAction)nextButtonAction:(id)sender {
 }

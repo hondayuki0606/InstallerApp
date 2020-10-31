@@ -14,6 +14,9 @@
 		AFFA50322549BC2E002DE8F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50312549BC2E002DE8F2 /* main.m */; };
 		AFFA503D2549BC2E002DE8F2 /* satatusBarAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA503C2549BC2E002DE8F2 /* satatusBarAppTests.m */; };
 		AFFA50482549BC2E002DE8F2 /* satatusBarAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50472549BC2E002DE8F2 /* satatusBarAppUITests.m */; };
+		AFFA50A4254D9C41002DE8F2 /* TestCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50A3254D9C41002DE8F2 /* TestCollection.m */; };
+		AFFA50B6254DA091002DE8F2 /* TestItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFA50B4254DA091002DE8F2 /* TestItem.m */; };
+		AFFA50B7254DA091002DE8F2 /* TestItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = AFFA50B5254DA091002DE8F2 /* TestItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,11 @@
 		AFFA50432549BC2E002DE8F2 /* satatusBarAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = satatusBarAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFA50472549BC2E002DE8F2 /* satatusBarAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = satatusBarAppUITests.m; sourceTree = "<group>"; };
 		AFFA50492549BC2E002DE8F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFA50A2254D9C41002DE8F2 /* TestCollection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestCollection.h; sourceTree = "<group>"; };
+		AFFA50A3254D9C41002DE8F2 /* TestCollection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestCollection.m; sourceTree = "<group>"; };
+		AFFA50B3254DA090002DE8F2 /* TestItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestItem.h; sourceTree = "<group>"; };
+		AFFA50B4254DA091002DE8F2 /* TestItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestItem.m; sourceTree = "<group>"; };
+		AFFA50B5254DA091002DE8F2 /* TestItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 				AFFA50302549BC2E002DE8F2 /* Info.plist */,
 				AFFA50312549BC2E002DE8F2 /* main.m */,
 				AFFA50332549BC2E002DE8F2 /* satatusBarApp.entitlements */,
+				AFFA50A2254D9C41002DE8F2 /* TestCollection.h */,
+				AFFA50A3254D9C41002DE8F2 /* TestCollection.m */,
+				AFFA50B3254DA090002DE8F2 /* TestItem.h */,
+				AFFA50B4254DA091002DE8F2 /* TestItem.m */,
+				AFFA50B5254DA091002DE8F2 /* TestItem.xib */,
 			);
 			path = satatusBarApp;
 			sourceTree = "<group>";
@@ -234,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFFA50B7254DA091002DE8F2 /* TestItem.xib in Resources */,
 				AFFA502C2549BC2E002DE8F2 /* Assets.xcassets in Resources */,
 				AFFA502F2549BC2E002DE8F2 /* Main.storyboard in Resources */,
 			);
@@ -262,7 +276,9 @@
 			files = (
 				AFFA502A2549BC2C002DE8F2 /* ViewController.m in Sources */,
 				AFFA50322549BC2E002DE8F2 /* main.m in Sources */,
+				AFFA50B6254DA091002DE8F2 /* TestItem.m in Sources */,
 				AFFA50272549BC2C002DE8F2 /* AppDelegate.m in Sources */,
+				AFFA50A4254D9C41002DE8F2 /* TestCollection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
