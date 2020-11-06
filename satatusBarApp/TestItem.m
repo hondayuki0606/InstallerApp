@@ -18,5 +18,10 @@
     [super viewDidLoad];
     // Do view setup here.
 }
+- (IBAction)tetetete:(id)sender {
+    
+    NSString *s = IB_Show_text.stringValue;
+    printf("test");
+}
 
 @end

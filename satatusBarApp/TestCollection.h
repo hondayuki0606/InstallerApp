@@ -10,7 +10,7 @@
 #import "TestItem.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TestCollection : NSCollectionView<NSCollectionViewDataSource,NSCollectionViewDelegate>{
+@interface TestCollection : NSCollectionView<NSCollectionViewDataSource,NSCollectionViewDelegate,NSCollectionViewDelegateFlowLayout>{
     NSMutableArray *ar_Device;
     NSMutableArray *ar_Icon;
     NSMutableArray *ar_Button;
