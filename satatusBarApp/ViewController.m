@@ -34,6 +34,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    if ([[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:@"TestTestApp://sss"]])
+    {
+        NSLog(@"アプリケーション起動成功");
+    }
+    
+    NSString *path = [[NSWorkspace sharedWorkspace] fullPathForApplication:@"TestTestApp"];
+
+    BOOL isTwitterInstalled = (nil != path);
     [self.InstallerStartView setHidden:NO];
     [self.InstalledView setHidden:YES];
     [self.InstallCompleteView setHidden:YES];
